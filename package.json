@@ -1,6 +1,6 @@
 {
   "name": "gl-disjoint-skybox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draws a disjoint skybox into a 3D scene.",
   "main": "index.js",
   "scripts": {

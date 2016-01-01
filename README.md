@@ -38,6 +38,8 @@ var createSkybox = require('gl-disjoint-skybox');
 
 `var skybox = createSkybox(gl, textures)`
 
+Returns a skybox object ready for rendering.
+
 Takes a WebGL context `gl` and a disjoint cubemap `textures` structured so:
 
 ```js
@@ -56,8 +58,6 @@ Takes a WebGL context `gl` and a disjoint cubemap `textures` structured so:
 ```
 See [gl-texture2d](https://github.com/stackgl/gl-texture2d) for more
 information about the required texture objects.
-
-Returns a skybox object ready for rendering.
 
 ### Methods
 
