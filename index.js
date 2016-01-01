@@ -32,6 +32,10 @@ function Skybox(gl, textures) {
 
     var model = mat4.create();
 
+    this.update = function(newTextures) {
+        textures = newTextures;
+    }
+
     this.draw = function(camera) {
         program.bind();
         program.uniforms.uModel = model;
@@ -55,6 +59,16 @@ function Skybox(gl, textures) {
         program.uniforms.uTexture = textures.neg.z.bind(0);
         geoms.neg.z.bind(program);
         geoms.neg.z.draw();
+    }
+
+    this.dispose = function() {
+        program.dispose();
+        geoms.pos.x.dispose();
+        geoms.pos.y.dispose();
+        geoms.pos.z.dispose();
+        geoms.neg.x.dispose();
+        geoms.neg.y.dispose();
+        geoms.neg.z.dispose();
     }
 
 

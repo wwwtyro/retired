@@ -71,3 +71,12 @@ Takes an object `camera` that has `view` and `projection` fields defined:
     projection: gl-mat4 projection matrix
 }
 ```
+
+`skybox.update(textures)`
+
+Updates the skybox textures. Takes a disjoint cubemap `textures` structured
+as described in the constructor.
+
+`skybox.dispose()`
+
+Disposes of all resources associated with the skybox.
