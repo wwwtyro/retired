@@ -1,6 +1,6 @@
 {
   "name": "geo-disjoint-skybox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Six cube face geometries forming a disjoint skybox.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,16 @@
     "gl-shader": "^4.1.1",
     "gl-texture2d": "^2.0.10",
     "glslify": "^5.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwtyro/geo-disjoint-skybox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwwtyro/geo-disjoint-skybox/issues"
+  },
+  "homepage": "https://github.com/wwwtyro/geo-disjoint-skybox#readme"
 }
