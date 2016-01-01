@@ -8,7 +8,7 @@
     "start": "budo --live example/index.js -- -t glslify"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rye Terrell <ryeterrell@ryeterrell.net> (http://wwwtyro.github.io)",
   "license": "Unlicense",
   "dependencies": {
     "geo-disjoint-skybox": "^1.0.0",
@@ -20,5 +20,16 @@
   "devDependencies": {
     "budo": "^7.1.0",
     "gl-cubemap-placeholder": "^1.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwtyro/gl-disjoint-skybox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwwtyro/gl-disjoint-skybox/issues"
+  },
+  "homepage": "https://github.com/wwwtyro/gl-disjoint-skybox#readme"
 }
